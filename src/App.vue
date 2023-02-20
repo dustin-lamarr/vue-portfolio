@@ -1,36 +1,13 @@
 <template>
-  <div class="typewriter">
-   
-      <h1 >This is Dustin</h1>
+  <MainNav/>
   
-  </div>
-
 </template>
 <script setup>
+import MainNav from './components/MainNav.vue';
+
 
 </script>
 
-<style scoped>
-.typewriter h1 {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .5em solid #00cc00; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
-}
+<style scoped >
 
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: #00cc00; }
-}
 </style>
