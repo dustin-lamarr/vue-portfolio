@@ -15,7 +15,8 @@ module.exports = {
         "300": "#b9a892"
       },
       "black": "black",
-      "white": "white"
+      "white": "white",
+      "DEFAULT": "white"
     },
     "fontFamily": {
       "cursive": [
@@ -43,6 +44,7 @@ module.exports = {
       },
       "black": "black",
       "white": "white",
+      "DEFAULT": "white",
       "auto": "auto"
     },
     "animation": {
@@ -51,7 +53,8 @@ module.exports = {
       "ping": "ping 1s cubic-bezier(0, 0, 0.2, 1) infinite",
       "pulse": "pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
       "bounce": "bounce 1s infinite",
-      "ping-slow": "pop 2s ease-in-out 1s 3"
+      "ping-slow": "pop 2s ease-in-out 1s 3",
+      "ping-fast": "pop 1s ease-in-out 0.5s 3"
     },
     "aria": {
       "checked": "checked=\"true\"",
@@ -160,7 +163,8 @@ module.exports = {
         "300": "#b9a892"
       },
       "black": "black",
-      "white": "white"
+      "white": "white",
+      "DEFAULT": "white"
     },
     "backgroundImage": {
       "none": "none",
@@ -332,7 +336,8 @@ module.exports = {
         "300": "#b9a892"
       },
       "black": "black",
-      "white": "white"
+      "white": "white",
+      "DEFAULT": "white"
     },
     "brightness": {
       "0": "0",
@@ -362,7 +367,8 @@ module.exports = {
         "300": "#b9a892"
       },
       "black": "black",
-      "white": "white"
+      "white": "white",
+      "DEFAULT": "white"
     },
     "columns": {
       "1": "1",
@@ -522,7 +528,8 @@ module.exports = {
         "300": "#b9a892"
       },
       "black": "black",
-      "white": "white"
+      "white": "white",
+      "DEFAULT": "white"
     },
     "flex": {
       "1": "1 1 0%",
@@ -746,7 +753,8 @@ module.exports = {
         "300": "#b9a892"
       },
       "black": "black",
-      "white": "white"
+      "white": "white",
+      "DEFAULT": "white"
     },
     "grayscale": {
       "0": "0",
@@ -1225,7 +1233,8 @@ module.exports = {
         "300": "#b9a892"
       },
       "black": "black",
-      "white": "white"
+      "white": "white",
+      "DEFAULT": "white"
     },
     "outlineOffset": {
       "0": "0px",
@@ -1293,7 +1302,8 @@ module.exports = {
         "300": "#b9a892"
       },
       "black": "black",
-      "white": "white"
+      "white": "white",
+      "DEFAULT": "white"
     },
     "placeholderOpacity": {
       "0": "0",
@@ -1313,7 +1323,7 @@ module.exports = {
       "100": "1"
     },
     "ringColor": {
-      "DEFAULT": "#3b82f6",
+      "DEFAULT": "white",
       "punkash": {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
@@ -1345,7 +1355,8 @@ module.exports = {
         "300": "#b9a892"
       },
       "black": "black",
-      "white": "white"
+      "white": "white",
+      "DEFAULT": "white"
     },
     "ringOffsetWidth": {
       "0": "0px",
@@ -1593,7 +1604,8 @@ module.exports = {
         "300": "#b9a892"
       },
       "black": "black",
-      "white": "white"
+      "white": "white",
+      "DEFAULT": "white"
     },
     "strokeWidth": {
       "0": "0",
@@ -1617,7 +1629,8 @@ module.exports = {
         "300": "#b9a892"
       },
       "black": "black",
-      "white": "white"
+      "white": "white",
+      "DEFAULT": "white"
     },
     "textDecorationColor": {
       "punkash": {
@@ -1634,7 +1647,8 @@ module.exports = {
         "300": "#b9a892"
       },
       "black": "black",
-      "white": "white"
+      "white": "white",
+      "DEFAULT": "white"
     },
     "textDecorationThickness": {
       "0": "0px",

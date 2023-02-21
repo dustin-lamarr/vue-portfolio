@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply text-white;
+    @apply font-mono;
+  }
+  h2 {
+    @apply text-xl;
+  }
+}

@@ -17,6 +17,7 @@ module.exports = {
       },
       black: "black",
       white: "white",
+      DEFAULT: "white",
     },
     fontFamily: {
       cursive: ["Bebas Neue", "cursive"],
@@ -25,6 +26,7 @@ module.exports = {
     extend: {
       animation: {
         "ping-slow": "pop 2s ease-in-out 1s 3",
+        "ping-fast": "pop 1s ease-in-out 0.5s 3",
       },
       keyframes: {
         pop: {
