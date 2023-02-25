@@ -6,16 +6,18 @@ module.exports = {
         "dark": "#004e25"
       },
       "yellow": {
-        "100": "#fef667",
-        "500": "#cbc101"
+        "100": "#dddd25",
+        "500": ""
       },
-      "orange": "#F7664D",
-      "cream": {
-        "100": "#ECE7E1",
-        "300": "#b9a892"
+      "orange": "#ff9528",
+      "pink": {
+        "100": "#ff45b4",
+        "300": ""
       },
+      "purple": "#b462ff",
+      "blue": "#18b6ff",
       "black": "black",
-      "white": "white",
+      "white": "#e1e1e1",
       "DEFAULT": "white"
     },
     "fontFamily": {
@@ -34,16 +36,18 @@ module.exports = {
         "dark": "#004e25"
       },
       "yellow": {
-        "100": "#fef667",
-        "500": "#cbc101"
+        "100": "#dddd25",
+        "500": ""
       },
-      "orange": "#F7664D",
-      "cream": {
-        "100": "#ECE7E1",
-        "300": "#b9a892"
+      "orange": "#ff9528",
+      "pink": {
+        "100": "#ff45b4",
+        "300": ""
       },
+      "purple": "#b462ff",
+      "blue": "#18b6ff",
       "black": "black",
-      "white": "white",
+      "white": "#e1e1e1",
       "DEFAULT": "white",
       "auto": "auto"
     },
@@ -154,16 +158,18 @@ module.exports = {
         "dark": "#004e25"
       },
       "yellow": {
-        "100": "#fef667",
-        "500": "#cbc101"
+        "100": "#dddd25",
+        "500": ""
       },
-      "orange": "#F7664D",
-      "cream": {
-        "100": "#ECE7E1",
-        "300": "#b9a892"
+      "orange": "#ff9528",
+      "pink": {
+        "100": "#ff45b4",
+        "300": ""
       },
+      "purple": "#b462ff",
+      "blue": "#18b6ff",
       "black": "black",
-      "white": "white",
+      "white": "#e1e1e1",
       "DEFAULT": "white"
     },
     "backgroundImage": {
@@ -227,16 +233,18 @@ module.exports = {
         "dark": "#004e25"
       },
       "yellow": {
-        "100": "#fef667",
-        "500": "#cbc101"
+        "100": "#dddd25",
+        "500": ""
       },
-      "orange": "#F7664D",
-      "cream": {
-        "100": "#ECE7E1",
-        "300": "#b9a892"
+      "orange": "#ff9528",
+      "pink": {
+        "100": "#ff45b4",
+        "300": ""
       },
+      "purple": "#b462ff",
+      "blue": "#18b6ff",
       "black": "black",
-      "white": "white",
+      "white": "#e1e1e1",
       "DEFAULT": "currentColor"
     },
     "borderOpacity": {
@@ -327,16 +335,18 @@ module.exports = {
         "dark": "#004e25"
       },
       "yellow": {
-        "100": "#fef667",
-        "500": "#cbc101"
+        "100": "#dddd25",
+        "500": ""
       },
-      "orange": "#F7664D",
-      "cream": {
-        "100": "#ECE7E1",
-        "300": "#b9a892"
+      "orange": "#ff9528",
+      "pink": {
+        "100": "#ff45b4",
+        "300": ""
       },
+      "purple": "#b462ff",
+      "blue": "#18b6ff",
       "black": "black",
-      "white": "white",
+      "white": "#e1e1e1",
       "DEFAULT": "white"
     },
     "brightness": {
@@ -358,16 +368,18 @@ module.exports = {
         "dark": "#004e25"
       },
       "yellow": {
-        "100": "#fef667",
-        "500": "#cbc101"
+        "100": "#dddd25",
+        "500": ""
       },
-      "orange": "#F7664D",
-      "cream": {
-        "100": "#ECE7E1",
-        "300": "#b9a892"
+      "orange": "#ff9528",
+      "pink": {
+        "100": "#ff45b4",
+        "300": ""
       },
+      "purple": "#b462ff",
+      "blue": "#18b6ff",
       "black": "black",
-      "white": "white",
+      "white": "#e1e1e1",
       "DEFAULT": "white"
     },
     "columns": {
@@ -455,16 +467,18 @@ module.exports = {
         "dark": "#004e25"
       },
       "yellow": {
-        "100": "#fef667",
-        "500": "#cbc101"
+        "100": "#dddd25",
+        "500": ""
       },
-      "orange": "#F7664D",
-      "cream": {
-        "100": "#ECE7E1",
-        "300": "#b9a892"
+      "orange": "#ff9528",
+      "pink": {
+        "100": "#ff45b4",
+        "300": ""
       },
+      "purple": "#b462ff",
+      "blue": "#18b6ff",
       "black": "black",
-      "white": "white",
+      "white": "#e1e1e1",
       "DEFAULT": "currentColor"
     },
     "divideOpacity": {
@@ -519,16 +533,18 @@ module.exports = {
         "dark": "#004e25"
       },
       "yellow": {
-        "100": "#fef667",
-        "500": "#cbc101"
+        "100": "#dddd25",
+        "500": ""
       },
-      "orange": "#F7664D",
-      "cream": {
-        "100": "#ECE7E1",
-        "300": "#b9a892"
+      "orange": "#ff9528",
+      "pink": {
+        "100": "#ff45b4",
+        "300": ""
       },
+      "purple": "#b462ff",
+      "blue": "#18b6ff",
       "black": "black",
-      "white": "white",
+      "white": "#e1e1e1",
       "DEFAULT": "white"
     },
     "flex": {
@@ -744,16 +760,18 @@ module.exports = {
         "dark": "#004e25"
       },
       "yellow": {
-        "100": "#fef667",
-        "500": "#cbc101"
+        "100": "#dddd25",
+        "500": ""
       },
-      "orange": "#F7664D",
-      "cream": {
-        "100": "#ECE7E1",
-        "300": "#b9a892"
+      "orange": "#ff9528",
+      "pink": {
+        "100": "#ff45b4",
+        "300": ""
       },
+      "purple": "#b462ff",
+      "blue": "#18b6ff",
       "black": "black",
-      "white": "white",
+      "white": "#e1e1e1",
       "DEFAULT": "white"
     },
     "grayscale": {
@@ -1224,16 +1242,18 @@ module.exports = {
         "dark": "#004e25"
       },
       "yellow": {
-        "100": "#fef667",
-        "500": "#cbc101"
+        "100": "#dddd25",
+        "500": ""
       },
-      "orange": "#F7664D",
-      "cream": {
-        "100": "#ECE7E1",
-        "300": "#b9a892"
+      "orange": "#ff9528",
+      "pink": {
+        "100": "#ff45b4",
+        "300": ""
       },
+      "purple": "#b462ff",
+      "blue": "#18b6ff",
       "black": "black",
-      "white": "white",
+      "white": "#e1e1e1",
       "DEFAULT": "white"
     },
     "outlineOffset": {
@@ -1293,16 +1313,18 @@ module.exports = {
         "dark": "#004e25"
       },
       "yellow": {
-        "100": "#fef667",
-        "500": "#cbc101"
+        "100": "#dddd25",
+        "500": ""
       },
-      "orange": "#F7664D",
-      "cream": {
-        "100": "#ECE7E1",
-        "300": "#b9a892"
+      "orange": "#ff9528",
+      "pink": {
+        "100": "#ff45b4",
+        "300": ""
       },
+      "purple": "#b462ff",
+      "blue": "#18b6ff",
       "black": "black",
-      "white": "white",
+      "white": "#e1e1e1",
       "DEFAULT": "white"
     },
     "placeholderOpacity": {
@@ -1329,16 +1351,18 @@ module.exports = {
         "dark": "#004e25"
       },
       "yellow": {
-        "100": "#fef667",
-        "500": "#cbc101"
+        "100": "#dddd25",
+        "500": ""
       },
-      "orange": "#F7664D",
-      "cream": {
-        "100": "#ECE7E1",
-        "300": "#b9a892"
+      "orange": "#ff9528",
+      "pink": {
+        "100": "#ff45b4",
+        "300": ""
       },
+      "purple": "#b462ff",
+      "blue": "#18b6ff",
       "black": "black",
-      "white": "white"
+      "white": "#e1e1e1"
     },
     "ringOffsetColor": {
       "punkash": {
@@ -1346,16 +1370,18 @@ module.exports = {
         "dark": "#004e25"
       },
       "yellow": {
-        "100": "#fef667",
-        "500": "#cbc101"
+        "100": "#dddd25",
+        "500": ""
       },
-      "orange": "#F7664D",
-      "cream": {
-        "100": "#ECE7E1",
-        "300": "#b9a892"
+      "orange": "#ff9528",
+      "pink": {
+        "100": "#ff45b4",
+        "300": ""
       },
+      "purple": "#b462ff",
+      "blue": "#18b6ff",
       "black": "black",
-      "white": "white",
+      "white": "#e1e1e1",
       "DEFAULT": "white"
     },
     "ringOffsetWidth": {
@@ -1595,16 +1621,18 @@ module.exports = {
         "dark": "#004e25"
       },
       "yellow": {
-        "100": "#fef667",
-        "500": "#cbc101"
+        "100": "#dddd25",
+        "500": ""
       },
-      "orange": "#F7664D",
-      "cream": {
-        "100": "#ECE7E1",
-        "300": "#b9a892"
+      "orange": "#ff9528",
+      "pink": {
+        "100": "#ff45b4",
+        "300": ""
       },
+      "purple": "#b462ff",
+      "blue": "#18b6ff",
       "black": "black",
-      "white": "white",
+      "white": "#e1e1e1",
       "DEFAULT": "white"
     },
     "strokeWidth": {
@@ -1620,16 +1648,18 @@ module.exports = {
         "dark": "#004e25"
       },
       "yellow": {
-        "100": "#fef667",
-        "500": "#cbc101"
+        "100": "#dddd25",
+        "500": ""
       },
-      "orange": "#F7664D",
-      "cream": {
-        "100": "#ECE7E1",
-        "300": "#b9a892"
+      "orange": "#ff9528",
+      "pink": {
+        "100": "#ff45b4",
+        "300": ""
       },
+      "purple": "#b462ff",
+      "blue": "#18b6ff",
       "black": "black",
-      "white": "white",
+      "white": "#e1e1e1",
       "DEFAULT": "white"
     },
     "textDecorationColor": {
@@ -1638,16 +1668,18 @@ module.exports = {
         "dark": "#004e25"
       },
       "yellow": {
-        "100": "#fef667",
-        "500": "#cbc101"
+        "100": "#dddd25",
+        "500": ""
       },
-      "orange": "#F7664D",
-      "cream": {
-        "100": "#ECE7E1",
-        "300": "#b9a892"
+      "orange": "#ff9528",
+      "pink": {
+        "100": "#ff45b4",
+        "300": ""
       },
+      "purple": "#b462ff",
+      "blue": "#18b6ff",
       "black": "black",
-      "white": "white",
+      "white": "#e1e1e1",
       "DEFAULT": "white"
     },
     "textDecorationThickness": {

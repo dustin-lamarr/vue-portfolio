@@ -7,16 +7,18 @@ module.exports = {
         dark: "#004e25",
       },
       yellow: {
-        100: "#fef667",
-        500: "#cbc101",
+        100: "#dddd25",
+        500: "",
       },
-      orange: "#F7664D",
-      cream: {
-        100: "#ECE7E1",
-        300: "#b9a892",
+      orange: "#ff9528",
+      pink: {
+        100: "#ff45b4",
+        300: "",
       },
+      purple: "#b462ff",
+      blue: "#18b6ff",
       black: "black",
-      white: "white",
+      white: "#e1e1e1",
       DEFAULT: "white",
     },
     fontFamily: {

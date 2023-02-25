@@ -17,7 +17,7 @@
       <NuxtLink
         to="https://www.ashlylamarr.com"
         target="_blank"
-        class="text-3xl tracking-tight sm:text-6xl"
+        class="text-3xl tracking-tight sm:text-6xl hover:text-purple"
       >
         Ashly LaMarr
       </NuxtLink>
@@ -25,7 +25,7 @@
       <NuxtLink
         to=""
         target="_blank"
-        class="text-3xl tracking-tight sm:text-6xl"
+        class="text-3xl tracking-tight sm:text-6xl hover:text-blue"
       >
         Dustin LaMarr
       </NuxtLink>
