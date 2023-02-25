@@ -6,20 +6,13 @@ module.exports = {
         DEFAULT: "#00a345",
         dark: "#004e25",
       },
-      yellow: {
-        100: "#dddd25",
-        500: "",
-      },
+      yellow: "#dddd25",
       orange: "#ff9528",
-      pink: {
-        100: "#ff45b4",
-        300: "",
-      },
+      pink: "#ff45b4",
       purple: "#b462ff",
       blue: "#18b6ff",
       black: "black",
       white: "#e1e1e1",
-      DEFAULT: "white",
     },
     fontFamily: {
       cursive: ["Bebas Neue", "cursive"],

@@ -5,20 +5,13 @@ module.exports = {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
       },
-      "yellow": {
-        "100": "#dddd25",
-        "500": ""
-      },
+      "yellow": "#dddd25",
       "orange": "#ff9528",
-      "pink": {
-        "100": "#ff45b4",
-        "300": ""
-      },
+      "pink": "#ff45b4",
       "purple": "#b462ff",
       "blue": "#18b6ff",
       "black": "black",
-      "white": "#e1e1e1",
-      "DEFAULT": "white"
+      "white": "#e1e1e1"
     },
     "fontFamily": {
       "cursive": [
@@ -35,20 +28,13 @@ module.exports = {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
       },
-      "yellow": {
-        "100": "#dddd25",
-        "500": ""
-      },
+      "yellow": "#dddd25",
       "orange": "#ff9528",
-      "pink": {
-        "100": "#ff45b4",
-        "300": ""
-      },
+      "pink": "#ff45b4",
       "purple": "#b462ff",
       "blue": "#18b6ff",
       "black": "black",
       "white": "#e1e1e1",
-      "DEFAULT": "white",
       "auto": "auto"
     },
     "animation": {
@@ -157,20 +143,13 @@ module.exports = {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
       },
-      "yellow": {
-        "100": "#dddd25",
-        "500": ""
-      },
+      "yellow": "#dddd25",
       "orange": "#ff9528",
-      "pink": {
-        "100": "#ff45b4",
-        "300": ""
-      },
+      "pink": "#ff45b4",
       "purple": "#b462ff",
       "blue": "#18b6ff",
       "black": "black",
-      "white": "#e1e1e1",
-      "DEFAULT": "white"
+      "white": "#e1e1e1"
     },
     "backgroundImage": {
       "none": "none",
@@ -232,15 +211,9 @@ module.exports = {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
       },
-      "yellow": {
-        "100": "#dddd25",
-        "500": ""
-      },
+      "yellow": "#dddd25",
       "orange": "#ff9528",
-      "pink": {
-        "100": "#ff45b4",
-        "300": ""
-      },
+      "pink": "#ff45b4",
       "purple": "#b462ff",
       "blue": "#18b6ff",
       "black": "black",
@@ -334,20 +307,13 @@ module.exports = {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
       },
-      "yellow": {
-        "100": "#dddd25",
-        "500": ""
-      },
+      "yellow": "#dddd25",
       "orange": "#ff9528",
-      "pink": {
-        "100": "#ff45b4",
-        "300": ""
-      },
+      "pink": "#ff45b4",
       "purple": "#b462ff",
       "blue": "#18b6ff",
       "black": "black",
-      "white": "#e1e1e1",
-      "DEFAULT": "white"
+      "white": "#e1e1e1"
     },
     "brightness": {
       "0": "0",
@@ -367,20 +333,13 @@ module.exports = {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
       },
-      "yellow": {
-        "100": "#dddd25",
-        "500": ""
-      },
+      "yellow": "#dddd25",
       "orange": "#ff9528",
-      "pink": {
-        "100": "#ff45b4",
-        "300": ""
-      },
+      "pink": "#ff45b4",
       "purple": "#b462ff",
       "blue": "#18b6ff",
       "black": "black",
-      "white": "#e1e1e1",
-      "DEFAULT": "white"
+      "white": "#e1e1e1"
     },
     "columns": {
       "1": "1",
@@ -466,15 +425,9 @@ module.exports = {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
       },
-      "yellow": {
-        "100": "#dddd25",
-        "500": ""
-      },
+      "yellow": "#dddd25",
       "orange": "#ff9528",
-      "pink": {
-        "100": "#ff45b4",
-        "300": ""
-      },
+      "pink": "#ff45b4",
       "purple": "#b462ff",
       "blue": "#18b6ff",
       "black": "black",
@@ -532,20 +485,13 @@ module.exports = {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
       },
-      "yellow": {
-        "100": "#dddd25",
-        "500": ""
-      },
+      "yellow": "#dddd25",
       "orange": "#ff9528",
-      "pink": {
-        "100": "#ff45b4",
-        "300": ""
-      },
+      "pink": "#ff45b4",
       "purple": "#b462ff",
       "blue": "#18b6ff",
       "black": "black",
-      "white": "#e1e1e1",
-      "DEFAULT": "white"
+      "white": "#e1e1e1"
     },
     "flex": {
       "1": "1 1 0%",
@@ -759,20 +705,13 @@ module.exports = {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
       },
-      "yellow": {
-        "100": "#dddd25",
-        "500": ""
-      },
+      "yellow": "#dddd25",
       "orange": "#ff9528",
-      "pink": {
-        "100": "#ff45b4",
-        "300": ""
-      },
+      "pink": "#ff45b4",
       "purple": "#b462ff",
       "blue": "#18b6ff",
       "black": "black",
-      "white": "#e1e1e1",
-      "DEFAULT": "white"
+      "white": "#e1e1e1"
     },
     "grayscale": {
       "0": "0",
@@ -1241,20 +1180,13 @@ module.exports = {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
       },
-      "yellow": {
-        "100": "#dddd25",
-        "500": ""
-      },
+      "yellow": "#dddd25",
       "orange": "#ff9528",
-      "pink": {
-        "100": "#ff45b4",
-        "300": ""
-      },
+      "pink": "#ff45b4",
       "purple": "#b462ff",
       "blue": "#18b6ff",
       "black": "black",
-      "white": "#e1e1e1",
-      "DEFAULT": "white"
+      "white": "#e1e1e1"
     },
     "outlineOffset": {
       "0": "0px",
@@ -1312,20 +1244,13 @@ module.exports = {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
       },
-      "yellow": {
-        "100": "#dddd25",
-        "500": ""
-      },
+      "yellow": "#dddd25",
       "orange": "#ff9528",
-      "pink": {
-        "100": "#ff45b4",
-        "300": ""
-      },
+      "pink": "#ff45b4",
       "purple": "#b462ff",
       "blue": "#18b6ff",
       "black": "black",
-      "white": "#e1e1e1",
-      "DEFAULT": "white"
+      "white": "#e1e1e1"
     },
     "placeholderOpacity": {
       "0": "0",
@@ -1345,20 +1270,14 @@ module.exports = {
       "100": "1"
     },
     "ringColor": {
-      "DEFAULT": "white",
+      "DEFAULT": "#3b82f6",
       "punkash": {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
       },
-      "yellow": {
-        "100": "#dddd25",
-        "500": ""
-      },
+      "yellow": "#dddd25",
       "orange": "#ff9528",
-      "pink": {
-        "100": "#ff45b4",
-        "300": ""
-      },
+      "pink": "#ff45b4",
       "purple": "#b462ff",
       "blue": "#18b6ff",
       "black": "black",
@@ -1369,20 +1288,13 @@ module.exports = {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
       },
-      "yellow": {
-        "100": "#dddd25",
-        "500": ""
-      },
+      "yellow": "#dddd25",
       "orange": "#ff9528",
-      "pink": {
-        "100": "#ff45b4",
-        "300": ""
-      },
+      "pink": "#ff45b4",
       "purple": "#b462ff",
       "blue": "#18b6ff",
       "black": "black",
-      "white": "#e1e1e1",
-      "DEFAULT": "white"
+      "white": "#e1e1e1"
     },
     "ringOffsetWidth": {
       "0": "0px",
@@ -1620,20 +1532,13 @@ module.exports = {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
       },
-      "yellow": {
-        "100": "#dddd25",
-        "500": ""
-      },
+      "yellow": "#dddd25",
       "orange": "#ff9528",
-      "pink": {
-        "100": "#ff45b4",
-        "300": ""
-      },
+      "pink": "#ff45b4",
       "purple": "#b462ff",
       "blue": "#18b6ff",
       "black": "black",
-      "white": "#e1e1e1",
-      "DEFAULT": "white"
+      "white": "#e1e1e1"
     },
     "strokeWidth": {
       "0": "0",
@@ -1647,40 +1552,26 @@ module.exports = {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
       },
-      "yellow": {
-        "100": "#dddd25",
-        "500": ""
-      },
+      "yellow": "#dddd25",
       "orange": "#ff9528",
-      "pink": {
-        "100": "#ff45b4",
-        "300": ""
-      },
+      "pink": "#ff45b4",
       "purple": "#b462ff",
       "blue": "#18b6ff",
       "black": "black",
-      "white": "#e1e1e1",
-      "DEFAULT": "white"
+      "white": "#e1e1e1"
     },
     "textDecorationColor": {
       "punkash": {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
       },
-      "yellow": {
-        "100": "#dddd25",
-        "500": ""
-      },
+      "yellow": "#dddd25",
       "orange": "#ff9528",
-      "pink": {
-        "100": "#ff45b4",
-        "300": ""
-      },
+      "pink": "#ff45b4",
       "purple": "#b462ff",
       "blue": "#18b6ff",
       "black": "black",
-      "white": "#e1e1e1",
-      "DEFAULT": "white"
+      "white": "#e1e1e1"
     },
     "textDecorationThickness": {
       "0": "0px",
