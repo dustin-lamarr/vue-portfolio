@@ -7,7 +7,4 @@
     @apply text-white;
     @apply font-mono;
   }
-  h2 {
-    @apply text-xl;
-  }
 }

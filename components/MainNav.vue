@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="flex flex-row bg-black fixed top-0 left-0 border-b-4 border-punkash-dark w-screen items-end text-punkash tracking-tight text-2xl"
+    class="flex flex-row bg-black border-b-4 border-punkash-dark w-screen items-end text-punkash tracking-tight text-2xl"
   >
     <ul
       class="text-sm flex space-x-4 text-center justify-center items-end w-full"
@@ -11,10 +11,10 @@
         <img
           :class="{ 'w-32 mr-0': screen }"
           class="h-auto w-20 ml-auto my-3"
-          src="../assets/punkash_bee_outline.png"
+          src="../assets/punkash_green_bee_dark.png"
         />
       </li>
-      <li class="flex">Mission</li>
+      <li class="flex">About</li>
     </ul>
   </nav>
 </template>
