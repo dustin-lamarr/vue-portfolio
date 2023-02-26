@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Skillzzz",
+    "subtitle": "The tools I've used",
+    "outerStyle": "border-orange text-orange shadow-lg shadow-orange/50"
+  },
+  {
+    "title": "Projects",
+    "subtitle": "The personal and professional projects I've worked on",
+    "outerStyle": "border-purple text-purple shadow-lg shadow-purple/50"
+  },
+  {
+    "title": "About",
+    "subtitle": "Find out more about Dustin",
+    "outerStyle": "border-pink text-pink shadow-lg shadow-pink/50"
+  }
+]

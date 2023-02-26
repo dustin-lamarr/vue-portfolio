@@ -12,10 +12,10 @@
     <img
       :class="{ 'w-32 mr-0': screen }"
       class="h-auto w-20 ml-auto my-3"
-      src="../assets/punkash_green_bee_dark.png"
+      src="../../assets/punkash_bee_outline.png"
     />
   </nav>
 </template>
 <script setup>
-defineProps({ screen: Boolean, sections: Object });
+defineProps({ screen: Boolean, sections: Array });
 </script>
