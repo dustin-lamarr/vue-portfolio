@@ -1,10 +1,5 @@
 <template>
-  <NavTop
-    v-if="!pulse"
-    :screen="screen"
-    :sections="sections"
-    :showNav="showNav"
-  />
+  <NavTop v-if="!pulse" :screen="screen" :sections="sections" />
   <slot />
 </template>
 <script setup>

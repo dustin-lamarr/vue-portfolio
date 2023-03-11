@@ -9,27 +9,37 @@
       <p class="text-blue">Dustin LaMarr</p>
       <p class="text-white">Full Stack Developer</p>
       <ul class="flex flex-row my-3 space-x-4">
-        <CardSectionTop
+        <li
+          class="text-center border-2 rounded-lg px-2 py-2"
           v-for="{ title, style } in sections"
           :title="title"
           :class="style"
-          v-if="showNav"
+          v-if="showLinks"
           :screen="screen"
-        />
+        >
+          <p class="text-sm" :class="{ 'text-xl': screen }">{{ title }}</p>
+        </li>
       </ul>
     </div>
-    <img
-      :class="{ 'w-32 mr-6': screen }"
-      class="h-auto w-20 ml-auto my-3"
-      src="../../assets/punkash.png"
-    />
+    <NuxtLink to="/" class="ml-auto my-3">
+      <img
+        :class="{ 'w-32 mr-6': screen }"
+        class="h-auto w-20"
+        src="../../assets/punkash.png"
+      />
+    </NuxtLink>
   </nav>
 </template>
 <script setup>
 defineProps({
   screen: Boolean,
   sections: Array,
-  showNav: Boolean,
   pulse: Boolean,
+});
+const route = useRoute();
+const showLinks = computed(() => {
+  if (route.name === "projects" || route.name === "about") {
+    return true;
+  } else return false;
 });
 </script>
