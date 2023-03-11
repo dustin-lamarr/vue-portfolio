@@ -5,7 +5,6 @@
       :class="style"
       :title="title"
       :subtitle="subtitle"
-      @click="emitInput(key)"
     />
   </ul>
 </template>
@@ -14,7 +13,4 @@ defineProps({
   sections: Array,
 });
 const emit = defineEmits(["clicked-section"]);
-function emitInput(value) {
-  emit("clicked-section", value);
-}
 </script>
