@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col px-1">
     <img
-      src="../assets/punkash.png"
+      src="/img/punkash.png"
       v-if="pulse"
       :class="{ 'animate-ping-slow': pulse }"
       class="flex self-center w-60 h-auto"
@@ -25,7 +25,6 @@
 </template>
 <script setup>
 defineProps({
-  screen: Boolean,
   sections: Array,
   pulse: Boolean,
 });

@@ -1,12 +1,6 @@
 <template>
-  <NuxtLayout :screen="screenWidth" :sections="sections" :pulse="state.pulse">
-    <NuxtPage
-      :screen="screenWidth"
-      :sections="sections"
-      :pulse="state.pulse"
-      class="bg-black h-screen"
-    />
-  </NuxtLayout>
+  <NavTop v-if="!state.pulse" :sections="sections" />
+  <NuxtPage :sections="sections" :pulse="state.pulse" class="p-3 sm:p-6" />
 </template>
 <script setup>
 const state = reactive({ pulse: true, activeSection: null, showNav: false });
@@ -16,9 +10,7 @@ onMounted(() => {
     state.pulse = false;
   }, 5000);
 });
-const screenWidth = computed(() => {
-  return window.innerWidth > 640 ? true : false;
-});
+
 const sections = [
   {
     key: "projects",
