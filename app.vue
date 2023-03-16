@@ -1,14 +1,20 @@
 <template>
   <NavTop v-if="!state.pulse" :sections="sections" />
-  <NuxtPage :sections="sections" :pulse="state.pulse" class="p-3 sm:p-6" />
+  <NuxtPage
+    :sections="sections"
+    :pulse="state.pulse"
+    class="p-3 sm:w-4/5 sm:m-auto"
+  />
 </template>
 <script setup>
 const state = reactive({ pulse: true, activeSection: null, showNav: false });
-
+const route = useRoute();
 onMounted(() => {
-  setTimeout(() => {
-    state.pulse = false;
-  }, 5000);
+  if (route.name === "/") {
+    setTimeout(() => {
+      state.pulse = false;
+    }, 5000);
+  } else state.pulse = false;
 });
 
 const sections = [
@@ -23,6 +29,12 @@ const sections = [
     title: "About",
     subtitle: "More about Dustin",
     style: "border-purple text-purple shadow-lg shadow-purple/50",
+  },
+  {
+    key: "thoughts",
+    title: "Thoughts",
+    subtitle: "Dustin, on things",
+    style: "border-pink text-pink shadow-lg shadow-pink/50",
   },
 ];
 </script>

@@ -1,12 +1,48 @@
 [
   {
+    "img": "",
+    "key": "fusion",
+    "header": "Fusion92 - CORE 2.0",
+    "url": "https://www.fusion92.com/",
+    "summary": "Static site builder app being developed for a major client in the financial sector. App features a builder with preset layouts and site sections, generator to create static sites, dashboards for content management and compliance approval.",
+    "tech": [
+      "HTML / CSS",
+      "Javascript",
+      "Vue 2",
+      "Nuxt 2",
+      "Azure Functions",
+      "Vuetify",
+      "Vuex",
+      "Dotnet backend"
+    ],
+    "github": "",
+    "alt": ""
+  },
+  {
+    "img": "",
+    "key": "homie",
+    "header": "Homie",
+    "url": "https://www.homie.com/",
+    "summary": "Real estate search app utilizing Utah MLS API, Google Maps API, and scrapers to display homes for sale, and user tools such as mortgage calculator, interest forms, and viewing scheduler.",
+    "tech": [
+      "HTML / CSS",
+      "Javascript",
+      "Vue 2",
+      "Nuxt 2",
+      "Jest",
+      "Google Maps API"
+    ],
+    "github": "",
+    "alt": ""
+  },
+  {
     "img": "voter-dashboard.png",
     "key": "voter",
     "header": "Voter",
     "url": "https://lamarr-voter-app.herokuapp.com/",
     "summary": "An ongoing project to help people be more informed about how their elected officials are representing them. Currently displays users federal, state, and municipal officials.",
     "tech": [
-      "HTML/CSS",
+      "HTML / CSS",
       "Javascript",
       "React",
       "Node.js",
@@ -26,12 +62,12 @@
     "img": "bobbyfirmino.png",
     "key": "bobby",
     "header": "bobbyfirmino.com",
-    "href": "https://bobbyfirmino.com/",
-    "summary": "Promotional website in conjunction with LFC Utah. Previously built with Handlebars, now converted to serverless Vue SPA, with Vite. Uses Netlify Functions to perform backend API calls for EPL data and Etsy shop data. Currently integrating Etsy listing images. Possible affiliate program with LFC store.",
+    "url": "https://bobbyfirmino.com/",
+    "summary": "Promotional website in conjunction with LFC Utah. Previously built with Handlebars, now converted to serverless Vue SPA, with Vite. Uses Netlify Functions to perform backend API calls for EPL data and Etsy shop data. Currently integrating Etsy listing images. Fun feature: a 'kit' setting in the nav bar that allows user to reskin the site, using dynamic Tailwind classes.",
     "tech": [
-      "HTML/CSS",
+      "HTML / CSS",
       "Javascript",
-      "Vue",
+      "Vue 3",
       "Tailwind CSS",
       "Vite",
       "PL API via RapidAPI",

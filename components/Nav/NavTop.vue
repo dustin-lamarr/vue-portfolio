@@ -1,28 +1,32 @@
 <template>
   <nav
-    class="flex flex-row border-b-4 border-punkash-dark w-screen items-end text-punkash tracking-tight text-2xl"
+    class="flex flex-row border-b-4 border-punkash-dark w-100 items-end text-punkash text-2xl mt-2"
   >
     <div
       class="flex flex-col content-end sm:flex sm:flex-row sm:mx-6 sm:space-x-8 sm:justify-around"
     >
-      <div class="flex flex-col">
-        <p class="text-blue">Dustin LaMarr</p>
-        <p class="text-white">Full Stack Developer</p>
+      <div class="flex flex-col tracking-tight">
+        <NuxtLink to="/">
+          <p class="text-blue text-3xl sm:text-5xl">Dustin LaMarr</p>
+          <p class="text-white sm:text-3xl">Full Stack Developer</p>
+        </NuxtLink>
       </div>
-      <ul class="flex flex-row my-3 space-x-4 sm:space-x-8">
+      <ul class="flex flex-row mb-2 space-x-4 sm:space-x-8 sm:mb-1">
         <li
-          class="text-center border-2 rounded-lg px-2 py-2"
-          v-for="{ title, style } in sections"
+          class="self-center border-2 rounded-lg px-1"
+          v-for="{ title, style, key } in sections"
           :title="title"
           :class="style"
           v-if="showLinks"
         >
-          <p class="text-sm sm:text-xl">{{ title }}</p>
+          <NuxtLink :to="`/${key}`">
+            <p class="text-sm p-1 sm:text-xl sm:p-2">{{ title }}</p>
+          </NuxtLink>
         </li>
       </ul>
     </div>
-    <NuxtLink to="/" class="ml-auto my-3">
-      <img class="h-auto w-20 sm:w-32 sm:mr-6" src="/img/punkash.png" />
+    <NuxtLink to="/" class="ml-auto">
+      <img class="h-auto w-12 sm:w-32 sm:mr-6" src="/img/punkash.png" />
     </NuxtLink>
   </nav>
 </template>
@@ -33,7 +37,7 @@ defineProps({
 });
 const route = useRoute();
 const showLinks = computed(() => {
-  if (route.name === "projects" || route.name === "about") {
+  if (route.name !== "index") {
     return true;
   } else return false;
 });
