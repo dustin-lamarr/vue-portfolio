@@ -1,14 +1,18 @@
 <template>
   <nav
-    class="flex flex-row border-b-4 border-punkash-dark w-100 items-end text-punkash text-2xl mt-2"
+    class="flex flex-row border-b-4 border-punkash-dark w-100 items-end text-punkash text-2xl mt-2 px-2"
   >
     <div
       class="flex flex-col content-end sm:flex sm:flex-row sm:mx-6 sm:space-x-8 sm:justify-around"
     >
-      <div class="flex flex-col tracking-tight">
+      <div class="flex flex-col mb-1">
         <NuxtLink to="/">
-          <p class="text-blue text-3xl sm:text-5xl">Dustin LaMarr</p>
-          <p class="text-white sm:text-3xl">Full Stack Developer</p>
+          <p class="text-blue text-3xl tracking-tight -mb-2 sm:text-5xl">
+            Dustin LaMarr
+          </p>
+          <p class="text-white text-lg tracking-tight sm:text-3xl">
+            Full Stack Developer
+          </p>
         </NuxtLink>
       </div>
       <ul class="flex flex-row mb-2 space-x-4 sm:space-x-8 sm:mb-1">

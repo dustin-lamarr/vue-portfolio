@@ -6,18 +6,23 @@
         v-for="{
           img,
           key,
-          header,
+          project,
           url,
           summary,
           tech,
           github,
           alt,
-        } in projectsObj"
+        } in state.projectData"
         :key="key"
+        :id="key"
       >
-        <h2 class="text-xl text-orange font-semibold">{{ header }}</h2>
-        <p class="leading-normal py-2">{{ summary }}</p>
+        <h2 class="text-xl text-orange font-semibold">{{ project }}</h2>
 
+        <ul class="pt-2">
+          <li v-for="summaries in summary">
+            <p>{{ summaries }}</p>
+          </li>
+        </ul>
         <NuxtLink :to="url" v-if="img">
           <div class="bg-white p-2 max-w-fit">
             <img :src="`/img/${img}`" :alt="alt" />
@@ -50,7 +55,8 @@
 </template>
 <script setup>
 import projects from "~/json/projects";
-const projectsObj = computed(() => {
-  return projects;
+const state = reactive({ projectData: {} });
+onMounted(() => {
+  state.projectData = projects;
 });
 </script>

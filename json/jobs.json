@@ -1,0 +1,33 @@
+[
+    {
+        "key": "navy",
+        "title": "Work Center Supervisor",
+        "dates": "(2000-2006)",
+        "summary": [
+            "Two years of advanced electronics training",
+            "Advanced to rank E-5 (Petty Officer 2nd Class) in just four years",
+            "Supervised anti-air radar system and personnel for two years",
+            "Awarded 3 Navy Achievement Medals and multiple letters of  commendation from the ship's Commanding Officers",
+            "Basically a war hero"
+        ]
+    },
+    {
+        "key": "electronics",
+        "title": "Electronics Technician",
+        "dates": "(2006-2012)",
+        "summary": [
+            "Positions with Axcelis Technologies (semiconductor) and the National Weather Service",
+            "Repaired electronic, RF, pneumatic, hydraulic, networking, and robotic systems in semiconductor fabrication and weather sensing equipment"
+        ]
+    },
+    {
+        "key": "br",
+        "title": "Director of Production, Beckett & Robb ",
+        "dates": "(2012-2019)",
+        "summary": [
+            "Managed production and inventory for a custom menswear company with five shops, and producing factories and vendors across multiple countries",
+            "Maintained content visual updates for company e-commerce website built on Shopify platform",
+            "Researched and implemented new point of sale system across all store locations with connection to corporate offices, and later it's update to a cloud based platform with browser interface."
+        ]
+    }
+]

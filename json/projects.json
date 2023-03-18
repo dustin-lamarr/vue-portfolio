@@ -2,9 +2,16 @@
   {
     "img": "",
     "key": "fusion",
-    "header": "Fusion92 - CORE 2.0",
+    "type": "professional",
+    "project": "Fusion92 - CORE 2.0",
+    "title": "Front End Developer",
+    "dates": "(2022-Now)",
     "url": "https://www.fusion92.com/",
-    "summary": "Static site builder app being developed for a major client in the financial sector. App features a builder with preset layouts and site sections, generator to create static sites, dashboards for content management and compliance approval.",
+    "summary": [
+      "Static site builder app being developed for a major client in the financial sector.",
+      "Lead development on lead form feature including custom masking and validation, UI/UX built to design spec, updates to backend C# data transfer object, and front end form object design based on client's API endpoint requirements",
+      "Created components, added store functions, styled, wrote tests, and configured in every application in this monolith."
+    ],
     "tech": [
       "HTML / CSS",
       "Javascript",
@@ -13,7 +20,8 @@
       "Azure Functions",
       "Vuetify",
       "Vuex",
-      "Dotnet backend"
+      "Dotnet backend",
+      "Vue Test Utils / Testing-Library"
     ],
     "github": "",
     "alt": ""
@@ -21,9 +29,16 @@
   {
     "img": "",
     "key": "homie",
-    "header": "Homie",
+    "project": "Homie.com",
+    "type": "professional",
+    "title": "Developer Apprentice",
+    "dates": "(2021-2022)",
     "url": "https://www.homie.com/",
-    "summary": "Real estate search app utilizing Utah MLS API, Google Maps API, and scrapers to display homes for sale, and user tools such as mortgage calculator, interest forms, and viewing scheduler.",
+    "summary": [
+      "Real estate sales and search app",
+      "Worked under Lead Developer to learn the important day-to-day aspects of being a developer, like the cadence of the Agile cycle, Gitflow, setting up environments, and cooperative feature development",
+      "Contributed to the development of a new mobile design for the search app and user tools such as mortgage calculator, interest forms, and viewing scheduler"
+    ],
     "tech": [
       "HTML / CSS",
       "Javascript",
@@ -38,9 +53,12 @@
   {
     "img": "voter-dashboard.png",
     "key": "voter",
-    "header": "Voter",
+    "project": "Voter",
+    "type": "personal",
     "url": "https://lamarr-voter-app.herokuapp.com/",
-    "summary": "An ongoing project to help people be more informed about how their elected officials are representing them. Currently displays users federal, state, and municipal officials.",
+    "summary": [
+      "An ongoing project to help people be more informed about how their elected officials are representing them. Currently displays users federal, state, and municipal officials"
+    ],
     "tech": [
       "HTML / CSS",
       "Javascript",
@@ -61,9 +79,14 @@
   {
     "img": "bobbyfirmino.png",
     "key": "bobby",
-    "header": "bobbyfirmino.com",
+    "project": "bobbyfirmino.com",
+    "type": "personal",
     "url": "https://bobbyfirmino.com/",
-    "summary": "Promotional website in conjunction with LFC Utah. Previously built with Handlebars, now converted to serverless Vue SPA, with Vite. Uses Netlify Functions to perform backend API calls for EPL data and Etsy shop data. Currently integrating Etsy listing images. Fun feature: a 'kit' setting in the nav bar that allows user to reskin the site, using dynamic Tailwind classes.",
+    "summary": [
+      "Promotional website in conjunction with LFC Utah. Previously built with Handlebars, now converted to serverless Vue SPA, with Vite",
+      "Uses Netlify Functions to perform backend API calls for EPL data and Etsy shop data. Currently integrating Etsy listing images",
+      "Fun was had designing a 'kit' setting in the nav bar that allows user to reskin the site, using dynamic Tailwind classes"
+    ],
     "tech": [
       "HTML / CSS",
       "Javascript",
