@@ -2,6 +2,8 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{vue,html,js,ts,jsx,tsx}"],
   theme: {
     colors: {
+      transparent: "transparent",
+      current: "currentColor",
       punkash: {
         DEFAULT: "#00a345",
         dark: "#004e25",

@@ -1,6 +1,8 @@
 module.exports = {
   "theme": {
     "colors": {
+      "transparent": "transparent",
+      "current": "currentColor",
       "punkash": {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
@@ -24,6 +26,8 @@ module.exports = {
       ]
     },
     "accentColor": {
+      "transparent": "transparent",
+      "current": "currentColor",
       "punkash": {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
@@ -139,6 +143,8 @@ module.exports = {
       "DEFAULT": "100%"
     },
     "backgroundColor": {
+      "transparent": "transparent",
+      "current": "currentColor",
       "punkash": {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
@@ -207,6 +213,8 @@ module.exports = {
       "3xl": "64px"
     },
     "borderColor": {
+      "transparent": "transparent",
+      "current": "currentColor",
       "punkash": {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
@@ -303,6 +311,8 @@ module.exports = {
       "none": "none"
     },
     "boxShadowColor": {
+      "transparent": "transparent",
+      "current": "currentColor",
       "punkash": {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
@@ -329,6 +339,8 @@ module.exports = {
       "200": "2"
     },
     "caretColor": {
+      "transparent": "transparent",
+      "current": "currentColor",
       "punkash": {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
@@ -421,6 +433,8 @@ module.exports = {
       "zoom-out": "zoom-out"
     },
     "divideColor": {
+      "transparent": "transparent",
+      "current": "currentColor",
       "punkash": {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
@@ -481,6 +495,8 @@ module.exports = {
     },
     "fill": {
       "none": "none",
+      "transparent": "transparent",
+      "current": "currentColor",
       "punkash": {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
@@ -701,6 +717,8 @@ module.exports = {
       "3.5": "0.875rem"
     },
     "gradientColorStops": {
+      "transparent": "transparent",
+      "current": "currentColor",
       "punkash": {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
@@ -1176,6 +1194,8 @@ module.exports = {
       "none": "0"
     },
     "outlineColor": {
+      "transparent": "transparent",
+      "current": "currentColor",
       "punkash": {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
@@ -1240,6 +1260,8 @@ module.exports = {
       "3.5": "0.875rem"
     },
     "placeholderColor": {
+      "transparent": "transparent",
+      "current": "currentColor",
       "punkash": {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
@@ -1271,6 +1293,8 @@ module.exports = {
     },
     "ringColor": {
       "DEFAULT": "#3b82f6",
+      "transparent": "transparent",
+      "current": "currentColor",
       "punkash": {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
@@ -1284,6 +1308,8 @@ module.exports = {
       "white": "#e1e1e1"
     },
     "ringOffsetColor": {
+      "transparent": "transparent",
+      "current": "currentColor",
       "punkash": {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
@@ -1528,6 +1554,8 @@ module.exports = {
     },
     "stroke": {
       "none": "none",
+      "transparent": "transparent",
+      "current": "currentColor",
       "punkash": {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
@@ -1548,6 +1576,8 @@ module.exports = {
     "supports": {},
     "data": {},
     "textColor": {
+      "transparent": "transparent",
+      "current": "currentColor",
       "punkash": {
         "DEFAULT": "#00a345",
         "dark": "#004e25"
@@ -1561,6 +1591,8 @@ module.exports = {
       "white": "#e1e1e1"
     },
     "textDecorationColor": {
+      "transparent": "transparent",
+      "current": "currentColor",
       "punkash": {
         "DEFAULT": "#00a345",
         "dark": "#004e25"

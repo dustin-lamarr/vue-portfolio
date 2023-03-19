@@ -1,7 +1,10 @@
 [
     {
         "key": "navy",
+        "category": "job",
+        "header": "United States Navy",
         "title": "Work Center Supervisor",
+        "location": "USS McCampbell, DDG-85",
         "dates": "(2000-2006)",
         "summary": [
             "Two years of advanced electronics training",
@@ -13,7 +16,10 @@
     },
     {
         "key": "electronics",
+        "category": "job",
+        "header": "Electronics Technician",
         "title": "Electronics Technician",
+        "location": "Axcelis Technologies, NOAA",
         "dates": "(2006-2012)",
         "summary": [
             "Positions with Axcelis Technologies (semiconductor) and the National Weather Service",
@@ -22,9 +28,13 @@
     },
     {
         "key": "br",
-        "title": "Director of Production, Beckett & Robb ",
+        "category": "job",
+        "header": "Director of Operations",
+        "title": "Director of Operations",
+        "location": "Beckett & Robb",
         "dates": "(2012-2019)",
         "summary": [
+            "First non-founder employee, started as salesman in shop",
             "Managed production and inventory for a custom menswear company with five shops, and producing factories and vendors across multiple countries",
             "Maintained content visual updates for company e-commerce website built on Shopify platform",
             "Researched and implemented new point of sale system across all store locations with connection to corporate offices, and later it's update to a cloud based platform with browser interface."

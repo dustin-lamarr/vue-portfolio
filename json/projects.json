@@ -2,6 +2,7 @@
   {
     "img": "",
     "key": "fusion",
+    "category": "project",
     "type": "professional",
     "project": "Fusion92 - CORE 2.0",
     "title": "Front End Developer",
@@ -29,6 +30,7 @@
   {
     "img": "",
     "key": "homie",
+    "category": "project",
     "project": "Homie.com",
     "type": "professional",
     "title": "Developer Apprentice",
@@ -53,6 +55,7 @@
   {
     "img": "voter-dashboard.png",
     "key": "voter",
+    "category": "project",
     "project": "Voter",
     "type": "personal",
     "url": "https://lamarr-voter-app.herokuapp.com/",
@@ -79,6 +82,7 @@
   {
     "img": "bobbyfirmino.png",
     "key": "bobby",
+    "category": "project",
     "project": "bobbyfirmino.com",
     "type": "personal",
     "url": "https://bobbyfirmino.com/",

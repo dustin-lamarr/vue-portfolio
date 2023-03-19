@@ -17,7 +17,7 @@
       </div>
       <ul class="flex flex-row mb-2 space-x-4 sm:space-x-8 sm:mb-1">
         <li
-          class="self-center border-2 rounded-lg px-1"
+          class="self-center border-2 rounded-lg px-1 cursor-pointer"
           v-for="{ title, style, key } in sections"
           :title="title"
           :class="style"

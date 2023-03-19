@@ -3,6 +3,7 @@ declare module 'vue' {
   export interface GlobalComponents {
     'CardsContentCard': typeof import("../components/Cards/ContentCard.vue")['default']
     'CardsInfoCard': typeof import("../components/Cards/InfoCard.vue")['default']
+    'CardsSpacer': typeof import("../components/Cards/Spacer.vue")['default']
     'NavTop': typeof import("../components/Nav/NavTop.vue")['default']
     'NuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
     'NuxtLayout': typeof import("../node_modules/nuxt/dist/app/components/layout")['default']
@@ -24,6 +25,7 @@ declare module 'vue' {
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'LazyCardsContentCard': typeof import("../components/Cards/ContentCard.vue")['default']
     'LazyCardsInfoCard': typeof import("../components/Cards/InfoCard.vue")['default']
+    'LazyCardsSpacer': typeof import("../components/Cards/Spacer.vue")['default']
     'LazyNavTop': typeof import("../components/Nav/NavTop.vue")['default']
     'LazyNuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
     'LazyNuxtLayout': typeof import("../node_modules/nuxt/dist/app/components/layout")['default']
@@ -48,6 +50,7 @@ declare module 'vue' {
 
 export const CardsContentCard: typeof import("../components/Cards/ContentCard.vue")['default']
 export const CardsInfoCard: typeof import("../components/Cards/InfoCard.vue")['default']
+export const CardsSpacer: typeof import("../components/Cards/Spacer.vue")['default']
 export const NavTop: typeof import("../components/Nav/NavTop.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
 export const NuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/layout")['default']
@@ -69,6 +72,7 @@ export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const LazyCardsContentCard: typeof import("../components/Cards/ContentCard.vue")['default']
 export const LazyCardsInfoCard: typeof import("../components/Cards/InfoCard.vue")['default']
+export const LazyCardsSpacer: typeof import("../components/Cards/Spacer.vue")['default']
 export const LazyNavTop: typeof import("../components/Nav/NavTop.vue")['default']
 export const LazyNuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
 export const LazyNuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/layout")['default']
