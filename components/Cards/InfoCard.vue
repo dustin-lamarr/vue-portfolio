@@ -6,12 +6,12 @@
     <h2 class="text-xl text-center leading-none">{{ header }}</h2>
     <ul v-if="state.isExpanded" class="border-t-2 border-punkash">
       <li class="my-1 px-2" v-for="{ title, location, dates, summary } in data">
-        <h3 class="mt-2 text-lg underline decoration-dotted">
+        <h3 class="mt-2 text-lg">
           {{ title }}
         </h3>
         <h4>{{ location }}</h4>
         <h4>{{ dates }}</h4>
-        <ul class="list-disc ml-4 marker:text-punkash">
+        <ul class="list-disc ml-4">
           <li v-for="points in summary">{{ points }}</li>
         </ul>
       </li>
