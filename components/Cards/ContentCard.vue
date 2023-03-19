@@ -1,13 +1,15 @@
 <template>
-  <div class="border rounded-lg sm:space-y-4" @click="openCard">
-    <h2 class="text-xl text-center">
-      {{ data.heading }}
-    </h2>
-    <ul class="border-t-2 border-punkash">
-      <li class="my-1 px-2">
-        <h3 class="mt-2 text-lg underline decoration-dotted decoration-punkash">
-          {{ data.title }}
-        </h3>
+  <div class="border rounded-lg p-3 space-y-2 sm:space-y-4">
+    <ul>
+      <li>
+        <h2 class="text-xl text-pink">{{ data.title }}</h2>
+      </li>
+      <li>
+        <p>{{ data.dates }}</p>
+      </li>
+    </ul>
+    <ul class="border-t-2 border-pink">
+      <li class="mt-3">
         <p>{{ data.content }}</p>
       </li>
     </ul>
@@ -17,8 +19,4 @@
 defineProps({
   data: {},
 });
-const state = reactive({ isExpanded: false });
-function openCard() {
-  state.isExpanded = !state.isExpanded;
-}
 </script>

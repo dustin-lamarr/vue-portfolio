@@ -1,10 +1,18 @@
 <template>
-  <div class="flex flex-col mt-6">
-    <div
-      class="border rounded-lg border-pink shadow-lg shadow-pink/50 px-4 py-3 space-y-2 divide-y divide-pink sm:space-y-4"
-    >
-      <h1>Thoughts section</h1>
-    </div>
+  <div class="flex flex-col">
+    <h1 class="text-pink text-center text-xl font-bold mb-3">
+      Digitized Electrical Impulses
+    </h1>
+    <ul>
+      <li v-for="post in posts" class="mb-6">
+        <CardsContentCard :data="post" class="border-pink" />
+      </li>
+    </ul>
   </div>
 </template>
-<script setup></script>
+<script setup>
+import thoughts from "~/json/thoughts";
+const posts = computed(() => {
+  return thoughts;
+});
+</script>
