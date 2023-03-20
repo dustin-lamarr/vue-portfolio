@@ -24,7 +24,7 @@
           </li>
         </ul>
         <NuxtLink :to="url" v-if="img">
-          <div class="bg-white p-2 max-w-fit">
+          <div class="bg-white p-2 max-w-fit mt-2">
             <img :src="`/img/${img}`" :alt="alt" />
           </div>
         </NuxtLink>
