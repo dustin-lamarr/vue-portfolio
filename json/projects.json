@@ -1,7 +1,7 @@
 [
   {
     "img": "core_builder.png",
-    "key": "fusion",
+    "key": "core",
     "category": "project",
     "type": "professional",
     "project": "Fusion92 - CORE 2.0",
@@ -23,6 +23,33 @@
       "Vuex",
       "Dotnet backend",
       "Vue Test Utils / Testing-Library"
+    ],
+    "github": "",
+    "alt": ""
+  },
+  {
+    "img": "recruiter_landing.png",
+    "key": "recruiter",
+    "category": "project",
+    "type": "professional",
+    "project": "Fusion92 - NYL Recruitment Site",
+    "title": "Front End Developer",
+    "dates": "(2022-Now)",
+    "url": "",
+    "summary": [
+      "Static site built over a two month period, for New York Life.",
+      "First professional development project built from start, until it was handed off to agency devs for content and feature udpates.",
+      "Mapped out site from designs, to determine reusable components, layouts, etc., for development"
+    ],
+    "tech": [
+      "HTML / CSS",
+      "Javascript",
+      "Vue 2",
+      "Nuxt 2",
+      "Nuxt Content",
+      "Vuetify",
+      "Vuex",
+      "Vue Test Utils / Jest"
     ],
     "github": "",
     "alt": ""
