@@ -1,15 +1,23 @@
 [
   {
     "category": "d",
+    "img": "",
+    "src": "https://franklloydwright.org/wp-content/uploads/2017/05/frank-lloyd-wright-paint-colors-taliesin-palette.jpg",
+    "title": "Color palette I like",
+    "url": "https://franklloydwright.org/designer-illustrates-top-10-favorite-frank-lloyd-wright-buildings/frank-lloyd-wright-paint-colors-taliesin-palette/",
+    "summary": ""
+  },
+  {
+    "category": "a",
     "img": "core_builder.png",
-    "title": "Front End Developer",
+    "title": "This is a Legs post!",
     "url": "https://www.fusion92.com/",
     "summary": ""
   },
   {
     "category": "a",
     "img": "core_builder.png",
-    "title": "Front End Developer",
+    "title": "This is a Legs post!",
     "url": "https://www.fusion92.com/",
     "summary": ""
   }

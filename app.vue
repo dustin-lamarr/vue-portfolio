@@ -4,6 +4,7 @@
     :sections="sections"
     :pulse="state.pulse"
     class="p-3 sm:w-4/5 sm:m-auto"
+    :class="{ 'sm:m-0': fullWidth }"
   />
 </template>
 <script setup>
@@ -16,7 +17,11 @@ onMounted(() => {
     }, 5000);
   } else state.pulse = false;
 });
-
+const fullWidth = computed(() => {
+  if (route.name === "inspiration") {
+    return true;
+  } else return false;
+});
 const sections = [
   {
     key: "projects",
