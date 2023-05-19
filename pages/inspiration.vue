@@ -30,7 +30,7 @@
 
         <div class="w-100 flex-nowrap">
           <p class="pt-2 text-lg">URL:</p>
-          <NuxtLink :to="url"
+          <NuxtLink :to="url" v-if="url"
             ><p class="mt-1">{{ url }}</p></NuxtLink
           >
         </div>
