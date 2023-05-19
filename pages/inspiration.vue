@@ -28,9 +28,9 @@
           <img :src="img ? `/img/${img}` : src" :alt="alt" />
         </div>
 
-        <div class="w-100 flex-nowrap">
+        <div class="w-100 flex-nowrap" v-if="url">
           <p class="pt-2 text-lg">URL:</p>
-          <NuxtLink :to="url" v-if="url"
+          <NuxtLink :to="url"
             ><p class="mt-1">{{ url }}</p></NuxtLink
           >
         </div>
